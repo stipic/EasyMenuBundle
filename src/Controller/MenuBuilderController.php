@@ -3,7 +3,6 @@
 namespace Stipic\EasyMenuBundle\Controller;
 
 use EasyCorp\Bundle\EasyAdminBundle\Controller\AdminController as BaseAdminController;
-use Symfony\Component\Routing\Annotation\Route;
 
 class MenuBuilderController extends BaseAdminController
 {

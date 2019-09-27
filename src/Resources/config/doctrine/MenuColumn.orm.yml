@@ -1,0 +1,36 @@
+Stipic\EasyMenuBundle\Entity\MenuColumn:
+    type: entity
+    table: menu_column
+    # repositoryClass: App\Repository\MenuColumnRepository
+    id:
+        id:
+            type: integer
+            scale: 0
+            length: null
+            unique: false
+            nullable: false
+            precision: 0
+            id: true
+            generator:
+                strategy: IDENTITY
+    fields:
+        columnOrder:
+            type: integer
+            scale: 0
+            length: null
+            unique: false
+            nullable: false
+            precision: 0
+            column: column_order
+    manyToOne:
+        menu:
+            targetEntity: Stipic\EasyMenuBundle\Entity\Menu
+            cascade: {  }
+            fetch: LAZY
+            mappedBy: null
+            inversedBy: menuColumns
+            joinColumns:
+                menu_id:
+                    referencedColumnName: id
+            orphanRemoval: false
+    lifecycleCallbacks: {  }
