@@ -1,0 +1,4 @@
+easy_menu_building_page:
+    path: /admin/menu
+    defaults:
+        _controller: Stipic\EasyMenuBundle\Controller\MenuBuilderController::menuBuilderPage
