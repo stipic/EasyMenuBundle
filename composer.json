@@ -1,0 +1,36 @@
+{
+    "name": "stipic/easy-menu-bundle",
+    "type": "symfony-bundle",
+    "description": "Easy Admin Menu Builder Bundle",
+    "keywords": [
+        "Symfony",
+        "Bundle",
+        "Stipic",
+        "EasyAdmin",
+        "Menu",
+        "Builder",
+        "Drag and drop"
+    ],
+    "homepage": "https://github.com/stipic/EasyMenuBundle",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Kristijan Stipić",
+            "email": "kiki.stipic@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=7.1",
+        "easycorp/easyadmin-bundle": "^2.0.0"
+    },
+    "require-dev": {
+    },
+    "suggest": {
+    },
+    "autoload": {
+        "psr-4": {
+            "Stipic\\EasyMenuBundle\\": "src/"
+        }
+    }
+}
