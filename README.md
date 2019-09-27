@@ -11,4 +11,4 @@ routes.yaml
 ```
 menu_builder:
     resource: "@StipicEasyMenuBundle/Resources/config/routing.yml"
-``
+```
