@@ -1,3 +1,17 @@
 easy_admin:
-   entities:
-       - Stipic\EasyMenuBundle\Entity\Menu
+    entities:
+        Menu:
+            class: Stipic\EasyMenuBundle\Entity\Menu
+            label: 'Menu'
+
+            form:
+                fields:
+                    - name
+                    - description
+            list:
+                fields:
+                    - id
+                    - name
+                    - description
+                    - menuColumns
+                    - { property: 'createdAt', type_options: { required: false }}
