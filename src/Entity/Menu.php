@@ -17,6 +17,11 @@ class Menu
 
     private $menuColumns;
 
+    public function setCreatedAtValue()
+    {
+        $this->createdAt = new \DateTime();
+    }
+
     public function __construct()
     {
         $this->menuColumns = new ArrayCollection();

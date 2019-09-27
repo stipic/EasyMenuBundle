@@ -45,4 +45,6 @@ Stipic\EasyMenuBundle\Entity\Menu:
             inversedBy: null
             orphanRemoval: false
             orderBy: null
-    lifecycleCallbacks: {  }
+    lifecycleCallbacks: { 
+        prePersist: ['setCreatedAtValue']
+     }

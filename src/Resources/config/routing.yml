@@ -1,4 +1,4 @@
-easy_menu_building_page:
-    path: /admin/menu
-    defaults:
-        _controller: Stipic\EasyMenuBundle\Controller\MenuBuilderController::menuBuilderPage
+# easy_menu_building_page: NOT USED FOR NOW!
+#     path: /admin/menu
+#     defaults:
+#         _controller: Stipic\EasyMenuBundle\Controller\MenuBuilderController::menuBuilderPage

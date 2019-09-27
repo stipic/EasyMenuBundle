@@ -8,11 +8,12 @@ class MenuBuilderController extends BaseAdminController
 {
     public function menuBuilderPage()
     {
-        return $this->render(
-            '@StipicEasyMenu/Menu/menu-build-page.html.twig',
-            [
+        //not used for now.
+        // return $this->render(
+        //     '@StipicEasyMenu/Admin/menu/edit.html.twig',
+        //     [
                 
-            ]
-        );
+        //     ]
+        // );
     }
 }

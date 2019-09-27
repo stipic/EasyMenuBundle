@@ -3,7 +3,8 @@ easy_admin:
         Menu:
             class: Stipic\EasyMenuBundle\Entity\Menu
             label: 'Menu'
-
+            templates:
+                edit: '@StipicEasyMenu/admin/menu/edit.html.twig'
             form:
                 fields:
                     - name
