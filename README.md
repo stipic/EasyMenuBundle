@@ -25,3 +25,7 @@ Update schema:
 ```
 $ bin/console d:s:u --force
 ```
+
+# Credits
+
+https://github.com/dbushell/Nestable
